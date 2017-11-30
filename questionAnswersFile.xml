@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<node data="Would you describe yourself as more laid-back or talkative?">
+	<!-- If laid-back it asks these questions -->
+	<node data="Are you a good student?">
+		<!-- Yes I am average -->
+		<node data="Would you describe yourself as strong or weak?">
+			<!-- Yes Strong -->
+			<node data="Donna"></node>
+			<!-- No Weak -->
+			<node data="Eric"></node>
+		</node>
+		<!-- No I dont care -->
+		<node data="What do you think of Disco?">
+			<!-- Yes I love disco -->
+			<node data="Did you have a lot of friends in HighSchool?">
+				<node data= "Jackie"></node>
+				<node data ="Fez"></node>
+			</node>
+			<!-- No Disco is from Hell -->
+			<node data="Hyde"></node>
+		</node>
+
+	</node>
+	<!-- Talkative questions -->
+	<node data="You want to be with someone who is...">
+		<!-- Sweet, Fun, Attractive -->
+		<node data="Would you describe yourself as a leader or a follower?">
+			<!-- Leader -->
+			<node data="Do you like to read books in your free time?">
+				<!-- Yes -->
+				<node data="Donna"></node>
+				<!-- No I'd rather go shopping -->
+				<node data="Jackie"></node>
+			</node>
+			<!-- Follower -->
+			<node data="Are you a good student?">
+				<!-- Yes -->
+				<node data="Eric"></node>
+				<!-- No I get by on my good looks-->
+				<node data="Kelso"></node>
+			</node>
+		</node>
+		<!-- Kind, Honest, Intelligent -->
+		<node data="Would you describe yourself as strong or weak?">
+			<!-- Strong -->
+			<node data="Do you believe in conspiracy theories?">
+				<!-- Yes -->
+				<node data="Hyde"></node>
+				<!-- No they are wack -->
+				<node data="Donna"></node>
+			</node>
+			<!-- Weak -->
+			<node data="For Halloween would you dress up as Batman or Luke Skywalker?">
+				<!-- Yes Batman -->
+				<node data="Fez"></node>
+				<!-- Luke Skywalker -->
+				<node data="Eric"></node>
+			</node>
+		</node>
+	</node>
+</node>
